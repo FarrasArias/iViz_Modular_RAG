@@ -6,7 +6,7 @@ This project implements a flexible chatbot system that utilizes Retrieval-Augmen
 
 * **Multiple RAG Models:** The system supports chaining multiple RAG models, each specialized in different domains or styles of communication. This allows for more comprehensive and nuanced responses.
 * **Customizable Character:** The chatbot's personality and knowledge base can be modified by providing different character and model initialization data (`.json` files).
-* **OpenAI Integration:** Leverages the powerful OpenAI API for text generation, ensuring the chatbot can engage in diverse conversations.
+* **OpenAI Integration:** We plan to adhere to the OpenAI API for text generation, even when using open-source models.
 
 **Installation**
 
