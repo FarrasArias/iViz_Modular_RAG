@@ -18,5 +18,5 @@ venv/
 data/ 
 
 # Except the test files... 
-!data/file1.txt
-!data/file2.csv 
+!data/a3.txt
+!data/newVG2.csv 

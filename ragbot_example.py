@@ -6,7 +6,7 @@ from colorama import init, Fore
 init()
 
 model_endpoint = "https://api.openai.com/v1/chat/completions"
-api_key =  "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"
+api_key =  ""
 
 # Metadata for RAG models
 VAN_GOGH_QUESTIONS_META = {
