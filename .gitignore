@@ -15,7 +15,8 @@ venv/
 **/__pycache__/
 
 # Ignore the whole data folder...
-data/ 
+data/einstein_index
+data/vginterview_index
 
 # Except the test files... 
 !/data/a3.txt
