@@ -17,3 +17,15 @@ The code was developed in Python 3.11.7.
    python3 -m venv env  # Create environment named 'env'
    source env/bin/activate  # Activate the environment (Linux/macOS)
    env\Scripts\activate  # Activate the environment (Windows)
+
+2. **Install requirements:** 
+   ```bash
+   pip install -r requirements.txt
+
+**Class Definitions**
+
+* **OpenAIChatbot:** Interacts with the OpenAI API for chatbot functionality.
+* **Embedder:** Encodes text into embeddings and allows efficient similarity search.
+* **DataProcessor:** Through `split_text()`, it splits a text file into a numpy array of substrings based on a separator or chunk length.
+* **RAG:** Represents a Retrieval-Augmented Generation (RAG) model.
+* **RAGChain:** Utilizes multiple RAG models for question answering, combining their strengths.
