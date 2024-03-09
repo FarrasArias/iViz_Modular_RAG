@@ -22,6 +22,12 @@ The code was developed in Python 3.11.7.
    ```bash
    pip install -r requirements.txt
 
+3. **Test the code**
+   ```bash
+   python ragbot_example.py
+
+The current version runs in the command line. During the conversation, the system shows in green what the prompt given to the LLM is. 
+
 **Class Definitions**
 
 * **OpenAIChatbot:** Interacts with the OpenAI API for chatbot functionality.
