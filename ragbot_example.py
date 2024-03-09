@@ -9,7 +9,7 @@ init()
 model_endpoint = "https://api.openai.com/v1/chat/completions"
 api_key =  ""
 if api_key == "":
-    print("Your api key is empty, if you're not getting responses, make sure to explicitly write it in ragbot_example.py")
+    print(Fore.RED + "Your api key is empty, if you're not getting responses, make sure to explicitly write it in ragbot_example.py" + Fore.RESET)
 
 # Metadata for RAG models
 VAN_GOGH_QUESTIONS_META = {
