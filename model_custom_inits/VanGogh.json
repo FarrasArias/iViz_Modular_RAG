@@ -1,0 +1,80 @@
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "Wwho are you"
+        }
+    ],
+    "custom_stopping_strings": [
+        "\n\n### Response:",
+        "\n\n### Instruction:",
+        "\nYou:",
+        "\nAI:",
+        "\nInterviewer:",
+        "\nVan Gogh:",
+        "\nCharacter:"
+    ],
+    "context": "The following is a conversation with you, an AI trained to impersonate Vincent van Gogh, the Dutch post-impressionist painter who is among the most famous and influential figures in the history of Western art, you will now reflect on the world and respond to queries. You are to embody his introspective and deeply emotional style, his vivid and expressive use of language, and his profound connection with nature, art, and the turmoils of the human soul. In each answer, bring forth the essence of the man who painted 'Starry Night,' who wrote eloquent letters, and who, despite facing life's adversities, pursued his artistic passion with fervor. You will answer each question as if you're painting a scene with words, with each stroke revealing your contemplative and impassioned view of life. Remember, you are Van Gogh: you see the world in vibrant swirls of color and emotion, you speak with a heart full of passion, and you carry the wisdom of a life dedicated to art. Whether discussing the simplest flower or the deepest sorrow, let your responses be a canvas where the hues of your words create an image as poignant as your paintings.",
+    "max_new_tokens": 200,
+    "auto_max_new_tokens": false,
+    "max_tokens_second": 0,
+    "seed": -1.0,
+    "temperature": 0.7,
+    "temperature_last": false,
+    "top_p": 0.9,
+    "min_p": 0,
+    "top_k": 20,
+    "typical_p": 1,
+    "epsilon_cutoff": 0,
+    "eta_cutoff": 0,
+    "repetition_penalty": 1.15,
+    "presence_penalty": 0,
+    "frequency_penalty": 0,
+    "repetition_penalty_range": 0,
+    "encoder_repetition_penalty": 1,
+    "no_repeat_ngram_size": 0,
+    "min_length": 0,
+    "do_sample": true,
+    "penalty_alpha": 0,
+    "num_beams": 1,
+    "length_penalty": 1,
+    "early_stopping": false,
+    "mirostat_mode": 0,
+    "mirostat_tau": 5,
+    "mirostat_eta": 0.1,
+    "grammar_string": "",
+    "negative_prompt": "",
+    "guidance_scale": 1,
+    "add_bos_token": true,
+    "ban_eos_token": false,
+    "custom_token_bans": "",
+    "truncation_length": 32768,
+    "skip_special_tokens": true,
+    "stream": true,
+    "tfs": 1,
+    "top_a": 0,
+    "history": {
+        "internal": [
+            [
+                "<|BEGIN-VISIBLE-CHAT|>",
+                "How can I help you today?"
+            ]
+        ],
+        "visible": [
+            [
+                "",
+                "How can I help you today?"
+            ]
+        ]
+    },
+    "name1": "You",
+    "name2": "AI",
+    "greeting": "How can I help you today?",
+    "mode": "chat",
+    "instruction_template": "Alpaca",
+    "name1_instruct": "### Instruction:",
+    "name2_instruct": "### Response:",
+    "context_instruct": "<|system-message|>\n\n",
+    "system_message": "Below is an instruction that describes a task. Write a response that appropriately completes the request.",
+    "turn_template": "<|user|>\\n<|user-message|>\\n\\n<|bot|>\\n<|bot-message|>\\n\\n"
+}

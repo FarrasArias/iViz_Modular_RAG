@@ -1,0 +1,22 @@
+# Temporary files
+*.tmp
+*.log
+
+# IDE-specific files
+.idea/
+.vscode/
+.vs/
+
+# Dependency folders
+node_modules/
+venv/
+
+# python cache
+**/__pycache__/
+
+# Ignore the whole data folder...
+data/ 
+
+# Except the test files... 
+!data/file1.txt
+!data/file2.csv 
