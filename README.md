@@ -12,7 +12,7 @@ This project implements a flexible chatbot system that utilizes Retrieval-Augmen
 
 The code was developed in Python 3.11.7. 
 
-1. **Create a virtual environment:** 
+1. **Create a virtual environment (in the command line):** 
    ```bash
    python3 -m venv env  # Create environment named 'env'
    source env/bin/activate  # Activate the environment (Linux/macOS)
